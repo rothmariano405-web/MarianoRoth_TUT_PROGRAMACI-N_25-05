@@ -17,4 +17,4 @@ Algoritmo cuadradoConAsteriscos
         Escribir "" 
         
     FinPara
-FinAlgoritmo
+FinAlgoritmo 
