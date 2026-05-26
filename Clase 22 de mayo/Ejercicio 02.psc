@@ -1,9 +1,9 @@
 Algoritmo ticketera
-    Definir precio, subtotal, iva, total Como Real
-    Definir cantidad Como Entero
+    Definir precio, subtotal, iva, total Como Real //Definimos las variables como reales 
+    Definir cantidad Como Entero //Definimos la variale como entrero
     
-    // Pedir los datos
-    Escribir "Ingresar precio del producto:"
+	//Solicita los datos
+    Escribir "Ingresar precio del producto:"  
     Leer precio
     Escribir "Ingresar cantidad comprada:"
     Leer cantidad
