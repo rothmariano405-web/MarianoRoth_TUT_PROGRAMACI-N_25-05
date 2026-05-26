@@ -1,11 +1,11 @@
 Algoritmo cuadradoConAsteriscos
     Definir lado, fila, columna Como Entero
     
-    // Para pedir el tamaño
-    Escribir "Ingrese el tamaño del lado del cuadrado:"
+    // Para pedir el tamaÃ±o
+    Escribir "Ingrese el tamaÃ±o del lado del cuadrado:"
     Leer lado
     
-    // bucle fila
+    // Bucle fila
     Para fila <- 1 Hasta lado Con Paso 1 Hacer
         
         // Bucle columna
@@ -13,7 +13,7 @@ Algoritmo cuadradoConAsteriscos
             Escribir "* " Sin Saltar
         FinPara
         
-        // para el salto de linea
+        // Para el salto de linea
         Escribir "" 
         
     FinPara
