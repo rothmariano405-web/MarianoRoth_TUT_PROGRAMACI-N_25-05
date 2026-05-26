@@ -32,5 +32,5 @@ Algoritmo RegistroSeguridad
     Hasta Que userCorrecto == Verdadero Y claveCorrecta == Verdadero
     
     // Si todo salio bien
-    Escribir "Registro realizado: usuario y contraseña guardados."
+    Escribir "Registro realizado: usuario y contraseÃ±a guardados."
 FinAlgoritmo
