@@ -33,4 +33,4 @@ Algoritmo RegistroSeguridad
     
     // Si todo salio bien
     Escribir "Registro realizado: usuario y contraseña guardados."
-FinAlgoritmo 
+FinAlgoritmo
