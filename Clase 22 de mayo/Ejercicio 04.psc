@@ -21,10 +21,10 @@ Algoritmo EconomiaSemanal
     Escribir "---------------------------------------------"
     Escribir "Dias que superaron el promedio de gasto:"
     
-    // 2.  mostrar en pantalla únicamente los días cuyos gastos específicos hayan superado dicho promedio.
+    // 2.  mostrar en pantalla Ãºnicamente los dÃ­as cuyos gastos especÃ­ficos hayan superado dicho promedio.
     Para indice <- 1 Hasta 7 Con Paso 1 Hacer
         Si gastos[indice] > promedio Entonces
-            Escribir "Dia ", indice, " con un gasto de: $", gastos[indice]
+            Escribir "Dia", indice, " con un gasto de: $", gastos[indice]
         FinSi
     FinPara
 FinAlgoritmo
