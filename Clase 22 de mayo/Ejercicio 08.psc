@@ -1,0 +1,36 @@
+Algoritmo RegistroSeguridad
+    Definir usuario, clave Como Texto
+    Definir userCorrecto, claveCorrecta Como Logico
+    
+    Repetir
+        // para pedir los datos
+        Escribir "Ingresar nombre de usuario (minimo 4 letras):"
+        Leer usuario
+        Escribir "Ingresar clave (exactamente 6 caracteres):"
+        Leer clave
+        
+        // condiciones
+        userCorrecto <- Falso
+        claveCorrecta <- Falso
+        
+        // condiciones del usuario
+        Si Longitud(usuario) >= 4 Entonces
+            userCorrecto <- Verdadero
+        Sino
+            Escribir ">> ERROR: El usuario tiene que tener 4 caracteres o mas."
+        FinSi
+        
+        // condiciones de la clave
+        Si Longitud(clave) == 6 Entonces
+            claveCorrecta <- Verdadero
+        Sino
+            Escribir ">> ERROR: La clave tiene que tener 6 caracteres."
+        FinSi
+        
+        Escribir "---------------------------------------------"
+        
+    Hasta Que userCorrecto == Verdadero Y claveCorrecta == Verdadero
+    
+    // Si todo salio bien
+    Escribir "Registro realizado: usuario y contraseña guardados."
+FinAlgoritmo 
