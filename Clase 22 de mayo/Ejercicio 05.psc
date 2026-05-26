@@ -10,13 +10,13 @@ Algoritmo ConversionMoneda
     Escribir "Ingrese la cotizacion actual del Euro:"
     Leer precioEuro
     
-    // conversiones en paralelo
+    // Conversiones en paralelo
     totalDolares <- pesos / precioDolar
     totalEuros <- pesos / precioEuro
     
-    // resultados
+    // Resultados
     Escribir "---------------------------------------------"
-    Escribir "Con $", pesos, " pesos podes comprar:"
+    Escribir "Con $" pesos, " pesos podes comprar:"
     Escribir ">> Dolares: U$S ", totalDolares
     Escribir ">> Euros: EUR ", totalEuros
     Escribir "---------------------------------------------"
